@@ -1,0 +1,444 @@
+*{
+  box-sizing: border-box;
+}
+.html{
+  background-color: white;
+ flex-wrap: nowrap;
+}
+.body{
+ padding-top: 160px;
+ font-family: 'Karla', sans-serif;
+}
+
+/* no šeienes sāksies header */
+
+.header{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99999999;
+
+}
+
+.container{
+ border: solid 5px lightgrey;
+ background-color: lightgrey;
+ opacity: 0,5;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 155px;
+}
+
+.flex-item1{
+  display: flex;
+  height: 150px;
+}
+.flex-item2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 204px;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.search_form{
+ text-align: right;
+ max-width: 260px;
+ display: inline-block;
+
+}
+
+.search_input{
+ font-size: 20px;
+
+}
+.search__button{
+ position: relative;
+ bottom: -2px;
+ left: -3px;
+
+}
+.search_image{
+  height: 20px;
+  width: 20px;
+}
+
+
+.nav_item1{
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.2s;
+  position: relative;
+  color: black;
+  transition-duration: 0.2s;
+  background-color: burlywood;
+  padding: 14px 40px;
+  vertical-align: baseline;
+  padding-bottom: 4px;
+
+}
+.nav_item2{
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.2s;
+  position: relative;
+  color: black;
+  transition-duration: 0.2s;
+  background-color: burlywood;
+  padding: 14px 40px;
+  vertical-align: baseline;
+  padding-bottom: 4px;
+
+}
+.nav_item3{
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.2s;
+  position: relative;
+  color: black;
+  transition-duration: 0.2s;
+  background-color: burlywood;
+  padding: 14px 40px;
+  vertical-align: baseline;
+  padding-bottom: 4px;
+
+}
+.nav_item1:hover{
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  background-color: brown;
+  opacity: 2;
+  border-radius: 12px;
+  position: relative;
+}
+.nav_item2:hover{
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  background-color: brown;
+  opacity: 2;
+  border-radius: 12px;
+  position: relative;
+}
+.nav_item3:hover{
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  background-color: brown;
+  opacity: 2;
+  border-radius: 12px;
+  position: relative;
+}
+
+/* no šeienes būs sekcija*/
+
+.section{
+ background-image: url(https://wallpapershome.com/images/pages/pic_h/6505.jpg);
+ background-size: cover;
+ border-left: solid 5px white;
+ border-right: solid 5px white;
+ width: 100%;
+ position: relative;
+ right: 0;
+ left: 0;
+}
+.flex_container_2{
+  display: flex;
+  flex-direction: row;
+  max-width: 715px;
+  height: auto;
+  padding: 10px 10px 60px 10px;
+}
+
+
+.poga{
+  text-decoration: none;
+  color: black;
+  margin: 10px 0;
+  background-color: burlywood;
+  padding: 14px 40px;
+  transition-duration: 0.2s;
+}
+.poga:hover{
+  color: white;
+  background-color: brown;
+  opacity: 2;
+  border-radius: 12px;
+}
+.poga1{
+  text-decoration: none;
+  color: black;
+  margin: 10px 0;
+  background-color: burlywood;
+  padding: 14px 40px;
+  transition-duration: 0.2s;
+}
+.poga1:hover{
+  color: white;
+  background-color: brown;
+  opacity: 2;
+  border-radius: 12px;
+}
+
+/* no šeienes sāksies nākama sekcija */
+
+.flex_container3{
+  display: flex;
+  padding: 10px 0px 10px 0px;
+  border-left: solid 5px white;
+  border-right: solid 5px white;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-wrapper{
+  display: inline-block;
+  text-align: justify;
+
+}
+
+.flex-item4{
+  display: inline-block;
+  vertical-align: top;
+}
+.flex-item5{
+  display: inline-block;
+  padding: 0px 25px 0px 25px;
+  vertical-align: top;
+
+}
+.flex-item6{
+  display: inline-block;
+  vertical-align: top;
+}
+.h1{
+  max-width: 435px;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.2s;
+  background-color: burlywood;
+  padding: 14px 40px;
+  vertical-align: baseline;
+}
+.link:hover{
+  color: white;
+  background-color: brown;
+  opacity: 2;
+  border-radius: 12px;
+  position: relative;
+}
+.flex-button{
+  text-align: right;
+}
+
+/* no šeienes sāksies nākama sekcija */
+
+.container4{
+  padding-top: 20px;
+  width: 100%;
+  position:absolute;
+  left:0;
+  right:0;
+}
+.flex_container4{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQo-WJvRK0fo5W5U8y-M_RAdUO6B4BEupyQ&usqp=CAU);
+  padding: 60px 40px 60px 40px;
+}
+.flex-item7{
+ text-align: center;
+ color: lightgrey;
+}
+.flex-button1{
+  display: flex;
+  text-align: justify;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.link2{
+   text-decoration: none;
+   color: black;
+   transition-duration: 0.2s;
+   background-color: burlywood;
+   padding: 14px 200px;
+   vertical-align: baseline;
+}
+.link2:hover{
+  color: white;
+  background-color: brown;
+  opacity: 2;
+  border-radius: 12px;
+  position: relative;
+}
+
+/* no šeienes sāksies nākama sekcija */
+
+.section4{
+  padding-top: 300px;
+}
+.slider{
+  height: 100%;
+
+}
+
+.flex-item13{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.image_forest-js{
+  display: none;
+  margin-top: 0px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.image_forest-js.active{
+  display: block;
+  align-items: center;
+}
+
+
+.slider-prev, .slider-next{
+  right: 3px;
+  position: relative;
+  font-size: 100px;
+  font-weight: bolder;
+  bottom: -350px;
+  max-height: 50px;
+  outline-color: white;
+
+}
+.slider-next,.slider-prev:focus {outline:0;}
+
+.slider-prev{
+  left: 1269px;
+}
+.slider-next{
+
+ left: -4px;
+}
+
+
+.slider-dots{
+ width: 100%;
+ position: relative;
+ padding: 10px 0;
+ z-index: 2;
+ bottom: 68px;
+ text-align: center;
+}
+.slider-dot{
+ display: inline-block;
+ width: 20px;
+ height: 20px;
+ border: 2px solid lightgrey;
+ cursor: pointer;
+
+}
+.slider-dot.active{
+  transition-duration: 0.2s;
+  background-color: lightgrey;
+  border-radius: 100%;
+}
+.slider-dot:hover{
+  transition-duration: 0.2s;
+  background-color: lightgrey;
+  border-radius: 100%;
+}
+
+/* no šeienes sāksies nākama sekcija */
+
+.flex-item8{
+ padding: 10px 20px 10px 20px;
+ font-size: 23px;
+}
+.flex-item9{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content_list{
+  list-style-type: circle;
+}
+.content_table{
+  border: solid 5px burlywood;
+  width: 1200px;
+  text-align: middle;
+}
+.content_table th, .content_table td{
+    border: solid 5px burlywood;
+    padding: 10px
+}
+
+/* no šeienes sāksies footer */
+
+.footer1{
+  padding: 10px 0 0 0;
+  height: 200px;
+  background-color: lightgrey;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 250px;
+}
+.flex-container7{
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+}
+.flex-item10{
+ padding-left: 5px;
+}
+.flex-item11{
+ text-align: center;
+}
+.flex-item12{
+ display: flex;
+ flex-direction: row;
+ font-size: 24px;
+ padding-right: 90px;
+
+}
+
+.nav_item4{
+  text-decoration: none;
+  color: black;
+}
+.nav_item4:hover{
+  transition: 0,2s;
+  color: white;
+  cursor: pointer;
+}
+.nav_item5{
+  text-decoration: none;
+  color: black;
+}
+.nav_item5:hover{
+  transition: 0,2s;
+  color: white;
+  cursor: pointer;
+}
+.nav_item6{
+  text-decoration: none;
+  color: black;
+}
+.nav_item6:hover{
+  transition: 0,2s;
+  color: white;
+  cursor: pointer;
+}
+.nav2{
+  text-align: justify;
+}
+
